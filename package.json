@@ -1,0 +1,53 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider && npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@vue/compiler-sfc": "^3.3.4",
+        "axios": "^0.21",
+        "bootstrap": "^4.6.0",
+        "jquery": "^3.6",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "popper.js": "^1.16.1",
+        "postcss": "^8.1.14",
+        "resolve-url-loader": "^3.1.2",
+        "rtlcss": "^4.1.0",
+        "sass": "^1.32.11",
+        "sass-loader": "^11.0.1",
+        "vue": "^3.3.4",
+        "vue-loader": "^17.0.1"
+    },
+    "dependencies": {
+        "@ckeditor/ckeditor5-build-classic": "^39.0.2",
+        "@ckeditor/ckeditor5-easy-image": "^41.3.1",
+        "@ckeditor/ckeditor5-inspector": "^4.1.0",
+        "@ckeditor/ckeditor5-upload": "^41.3.1",
+        "@ckeditor/ckeditor5-vue": "^5.1.0",
+        "@fullcalendar/core": "^6.1.11",
+        "@fullcalendar/daygrid": "^6.1.11",
+        "@fullcalendar/timegrid": "^6.1.11",
+        "@fullcalendar/vue3": "^6.1.11",
+        "@johmun/vue-tags-input": "^2.1.0",
+        "bootstrap-vue": "^2.23.1",
+        "cross-env": "^7.0.3",
+        "he": "^1.2.0",
+        "laravel-echo": "^1.16.1",
+        "marked": "^15.0.2",
+        "pinia": "^2.1.4",
+        "primevue": "^4.2.5",
+        "socket.io-client": "^2.5.0",
+        "sweetalert2": "^11.12.0",
+        "vue-multiselect": "^3.0.0-beta.3",
+        "vue-router": "^4.0.13",
+        "vue3-datepicker": "^0.4.0",
+        "vue3-tags-input": "^1.0.12"
+    }
+}

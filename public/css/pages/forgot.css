@@ -1,0 +1,18 @@
+/*----------------------------------------
+    Login Page
+------------------------------------------*/
+.forgot-bg {
+  background-image: linear-gradient(90deg,#f05bb8,#fc9f62);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#forgot-password {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#forgot-password .card-panel.border-radius-6.forgot-card {
+  margin-left: 0 !important;
+}
